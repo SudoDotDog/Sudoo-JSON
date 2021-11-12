@@ -18,7 +18,7 @@
   "devDependencies": {
     "@sudoo/io": "^1.8.0",
     "@sudoo/pattern": "^1.7.0",
-    "@sudoo/triforce": "^2.15.1",
+    "@sudoo/triforce": "^2.16.0",
     "@sudoo/verify": "^1.17.1"
   },
   "peerDependencies": {
