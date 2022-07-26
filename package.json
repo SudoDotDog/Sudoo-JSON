@@ -19,7 +19,7 @@
     "@sudoo/io": "^1.8.0",
     "@sudoo/pattern": "^1.7.0",
     "@sudoo/triforce": "^3.5.1",
-    "@sudoo/verify": "^1.17.1"
+    "@sudoo/verify": "^1.19.0"
   },
   "peerDependencies": {
     "@sudoo/pattern": "*",
