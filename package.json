@@ -17,7 +17,7 @@
   "homepage": "https://github.com/SudoDotDog/Sudoo-JSON#readme",
   "devDependencies": {
     "@sudoo/io": "^1.8.0",
-    "@sudoo/pattern": "^1.7.0",
+    "@sudoo/pattern": "^1.10.0",
     "@sudoo/triforce": "^3.7.0",
     "@sudoo/verify": "^1.19.0"
   },
