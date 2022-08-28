@@ -1,6 +1,6 @@
 # Sudoo-JSON
 
-[![Build Status](https://travis-ci.com/SudoDotDog/Sudoo-Json.svg?branch=master)](https://travis-ci.com/SudoDotDog/Sudoo-Json)
+[![Continuous Integration](https://github.com/SudoDotDog/Sudoo-Json/actions/workflows/ci.yml/badge.svg)](https://github.com/SudoDotDog/Sudoo-Json/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/SudoDotDog/Sudoo-Json/branch/master/graph/badge.svg)](https://codecov.io/gh/SudoDotDog/Sudoo-Json)
 [![npm version](https://badge.fury.io/js/%40sudoo%2Fjson.svg)](https://badge.fury.io/js/%40sudoo%2Fjson)
 [![downloads](https://img.shields.io/npm/dm/@sudoo/json.svg)](https://www.npmjs.com/package/@sudoo/json)
