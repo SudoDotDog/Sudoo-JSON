@@ -8,9 +8,9 @@ import { Pattern } from "@sudoo/pattern";
 import { Verifier, VerifyResult } from "@sudoo/verify";
 import { JSONReplacer } from "./declare";
 
-export class JSONStringifier<T extends any = any> {
+export class JSONStringifier<T = any> {
 
-    public static from<T extends any = any>(jsonObject: T): JSONStringifier<T> {
+    public static from<T = any>(jsonObject: T): JSONStringifier<T> {
 
         return new JSONStringifier<T>(jsonObject);
     }

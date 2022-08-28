@@ -7,9 +7,9 @@
 import { Pattern } from "@sudoo/pattern";
 import { createVerifyResult, Verifier, VerifyResult } from "@sudoo/verify";
 
-export class JSONParser<T extends any = any> {
+export class JSONParser<T = any> {
 
-    public static from<T extends any = any>(jsonString: string): JSONParser<T> {
+    public static from<T = any>(jsonString: string): JSONParser<T> {
 
         return new JSONParser<T>(jsonString);
     }
@@ -38,7 +38,7 @@ export class JSONParser<T extends any = any> {
         throw new Error(this._parseError);
     }
 
-    public parseOrDefault<D extends any = T>(defaultValue: D): T | D {
+    public parseOrDefault<D = T>(defaultValue: D): T | D {
 
         const parseResult: boolean = this.attemptParse();
 
@@ -63,7 +63,7 @@ export class JSONParser<T extends any = any> {
             return true;
         } catch (error) {
 
-            this._parseError = error.message;
+            this._parseError = (error as any).message;
 
             return false;
         }
