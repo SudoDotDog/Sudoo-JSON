@@ -1,7 +1,7 @@
 {
   "name": "@sudoo/json",
   "version": "2.0.0",
-  "description": ":foggy: Read Nested JSON file",
+  "description": "Read Nested JSON file",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SudoDotDog/Sudoo-JSON.git"
@@ -15,15 +15,14 @@
     "url": "https://github.com/SudoDotDog/Sudoo-JSON/issues"
   },
   "homepage": "https://github.com/SudoDotDog/Sudoo-JSON#readme",
-  "devDependencies": {
-    "@sudoo/io": "^1.8.0",
-    "@sudoo/pattern": "^1.10.0",
-    "@sudoo/triforce": "^3.7.0",
-    "@sudoo/verify": "^1.19.0"
-  },
   "peerDependencies": {
     "@sudoo/pattern": "*",
     "@sudoo/verify": "*"
+  },
+  "devDependencies": {
+    "@sudoo/pattern": "^1.10.0",
+    "@sudoo/triforce": "^3.8.0",
+    "@sudoo/verify": "^1.19.0"
   },
   "nyc": {
     "extension": [
